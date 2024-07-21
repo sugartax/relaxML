@@ -25,11 +25,11 @@ Install the following dependencies (Make sure these are added to PATH):
    cd relaxML
    ```
 
-2. Create a `.jar` file:
+2. Create a `.jar` file (Make sure to add all the .class files):
 
    ```sh
    javac Main.java
-   jar cfm relaxML.jar MANIFEST.MF Main.class
+   jar cfm relaxML.jar MANIFEST.MF Main.class Options.class ...etc
    ```
 
 3. Create a `relaxML-build.xml` file:
