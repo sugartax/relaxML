@@ -1,0 +1,42 @@
++------------+
+| Principles |
++------------+
+
+Each command should only do one thing.
+A command should only be one line long.
+
++------------------+
+| Compiler Options |
++------------------+
+
+-d          --debug             Displays debug information. Default false.
+-dir                            Output directory. Default directory is current directory.
+-h          --help              Displays help info. Default false.
+-i                              Input .rlxm file name.
+-o                              Output file names. Default file names are index.html, style.css, and index.js.
+--verbose                       Output info on what the compiler is doing.
+-v          --version           Displays language version. Default false.
+-Wall                           Enable all warnings. Default false.
+-Werror                         Treat warnings as errors. Default false.
+-Wnone                          Disable all warnings. Default false.             
+
++----------+
+| Features |
++----------+
+
+Setup should start with #.
+Headings should start with /x/ where x is a number between 1 and 6. 
+Comments come in multiple types:
+    - Only single line, no multi line (see design num. 2)
+    - Comments cannot happen after other commands
+    - Regular comments should start with <C>
+    - Important comments should start with <!>
+    - Question comments should start with <?>
+    - To-Do Comments should start with <+>
+Bold text are surrounded with *
+Italicized text are surrounded with _
+
++-------------------------------+
+| ReLaX ML file example (.rlxm) |
++-------------------------------+
+
